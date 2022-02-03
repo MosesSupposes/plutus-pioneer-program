@@ -19,10 +19,31 @@
  - [Part 4 - Summary](https://youtu.be/V5P2gKHos48)
  - [Part 5 - Homework](https://youtu.be/_r-EpXzQGKo)
 
+### [Lecture #3](https://www.youtube.com/playlist?list=PLNEK_Ejlx3x2zxcfoVGARFExzOHwXFCCL)
+
+ - [Part 1 - Configuring Playground Time Out](https://youtu.be/sLMhsqiWeGU)
+ - [Part 2 - Script Contexts](https://youtu.be/B66xLrGXwmw)
+ - [Part 3 - Handling Time](https://youtu.be/mf06ll-4j2w)
+ - [Part 4 - A Vesting Example](https://youtu.be/ae7U_yKIQ0Y)
+ - [Part 5 - Parameterized Contracts](https://youtu.be/XqFILXV_ACM)
+ - [Part 6 - Deploying to the Cardano Testnet](https://youtu.be/ABtffZPoUqU)
+ - [Part 7 - Homework](https://youtu.be/GGUT2O_0urQ)
+ - [Part 8 - Summary](https://youtu.be/uyaPtayBRb8)
+
+### [Lecture #4](https://www.youtube.com/playlist?list=PLNEK_Ejlx3x230-g-U02issX5BiWAgmSi)
+
+ - [Part 1 - Introduction](https://youtu.be/gxMW9uXTEj4)
+ - [Part 2 - Monads](https://youtu.be/f2w-MB3X4a0)
+ - [Part 3 - The EmulatorTrace Monad](https://youtu.be/qoUfgaHs1CI)
+ - [Part 4 - The Contract Monad](https://youtu.be/yKX5Ce8Y0VQ)
+ - [Part 5 - Homework & Summary](https://youtu.be/sxRLzR0jdiY)
+
 ## Code Examples
 
  - Lecture #1: [English Auction](code/week01)
  - Lecture #2: [Simple Validation](code/week02)
+ - Lecture #3: [Script Contexts & Parameterized Contracts](code/week03)
+ - Lecture #4: [Monads, Traces & Contracts](code/week04)
 
 ## Exercises
 
@@ -51,12 +72,25 @@
   - Fix and complete the code in the [Homework1](code/week02/src/Week02/Homework1.hs) module.
   - Fix and complete the code in the [Homework2](code/week02/src/Week02/Homework2.hs) module.
 
+- Week #3
+
+  - Fix and complete the code in the [Homework1](code/week03/src/Week03/Homework1.hs) module.
+  - Fix and complete the code in the [Homework2](code/week03/src/Week03/Homework2.hs) module.
+
+- Week #4
+
+  - Implement function `payTrace` in the [Homework](code/week04/src/Week04/Homework.hs) module.
+  - Handle exceptions thrown by `submitTx` in function `payContract` in the same module.
+
 ## Some Plutus Modules
 
   - `Ledger.Scripts`, contains functions related to untyped Plutus scripts.
   - `Ledger.Typed.Scripts`, contains functions related to typed Plutus scripts.
+  - `Plutus.V1.Ledger.Interval`, contains the definition of intervals and functions for working with them.
+  - `Plutus.V1.Ledger.Time`, contains time-related types and functions.
   - `PlutusTx`, contains important types like `Data` and `BuiltinData`.
   - `PlutusTx.IsData.Class`, contains the `ToData` and `FromData` classes and related functions.
+  - `Wallet.Emulator`, contains types and functions for dealing with wallets.
 
 ## Additional Resources
 
