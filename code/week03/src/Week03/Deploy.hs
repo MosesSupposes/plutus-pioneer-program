@@ -38,6 +38,6 @@ writeUnit = writeJSON "testnet/unit.json" ()
 
 writeVestingValidator :: IO (Either (FileError ()) ())
 writeVestingValidator = writeValidator "testnet/vesting.plutus" $ validator $ VestingParam
-    { beneficiary = Ledger.PaymentPubKeyHash "c2ff616e11299d9094ce0a7eb5b7284b705147a822f4ffbd471f971a"
-    , deadline    = 1643235300000
+    { beneficiary = Ledger.PaymentPubKeyHash "41b5d926da7a35c5b534e2a54a2e504c4babecc5ec91c864fe6b98ba"
+    , deadline    = 1644290133000
     }
